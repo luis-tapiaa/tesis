@@ -1,0 +1,16 @@
+.policy-row {
+  flex-basis: 33.33%;
+}
+
+.policy {
+  display: flex;
+  padding: 15px 10px;
+}
+
+.policy-row .key {
+  margin-bottom: 15px;
+}
+
+.policy-row .key:last-child {
+  margin: 0;
+}

@@ -1,0 +1,9 @@
+.key {
+  width: 100%;
+}
+
+.key div:first-child {
+  margin-bottom: 3px;
+  text-transform: capitalize;
+  font-weight: 600;
+}

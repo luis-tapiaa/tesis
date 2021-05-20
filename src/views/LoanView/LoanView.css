@@ -1,0 +1,61 @@
+.panel.loan-panel {
+  width: 50%;
+}
+
+.panel.loan-panel:first-child {
+  border-right: 1px solid #e5e5e5;
+}
+
+.form-container {
+  margin: 35px 50px;
+}
+
+.form-container form {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-container form button,
+.form-container form .field {
+  margin: 0;
+}
+
+.form-container form .field {
+  flex-basis: 67%;
+}
+
+.barcode-submit {
+  flex-basis: 30%;
+}
+
+.loan-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.loan-user {
+  padding: 0 50px;
+  font-size: 14px;
+}
+
+.loan-user-label {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.loan-user hr {
+  margin: 10px 0;
+}
+
+.loan-row {
+  display: flex;
+}
+
+.loan-row div {
+  width: 50%;
+}
+
+.loan-user a {
+  text-decoration: none;
+}

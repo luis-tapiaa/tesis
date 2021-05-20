@@ -1,0 +1,46 @@
+.smart-panel {
+  height: calc(100vh - 55px - 48px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.smart-items {
+  flex-grow: 1;
+}
+
+.smart-detail {
+  max-width: 30%;
+  min-width: 30%;
+  border-left: 1px solid #e5e5e5;
+}
+
+.smart-table tbody td {
+  padding: 10px;
+}
+
+.smart-table {
+  background: #fff;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.3);
+  margin: 20px 10px;
+  width: calc(100% - 20px);
+  flex-grow: 1;
+}
+
+.smart-table tbody tr {
+  transition: background 0.3s ease-in-out;
+}
+
+.smart-table tbody tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+.smart-table tbody tr:hover {
+  background: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.smart-table thead {
+  color: #003d79;
+  border-bottom: 1px solid #e5e5e5;
+}

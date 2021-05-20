@@ -1,0 +1,21 @@
+.policy-modal .modal-content {
+  max-height: 450px;
+  overflow-y: auto;
+}
+
+.policy-modal .modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+
+.policy-modal .modal-content::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.policy-modal .modal-content::-webkit-scrollbar-thumb {
+  background: #a5abad;
+  border-radius: 4px;
+}
+
+.policy-modal .modal-content::-webkit-scrollbar-thumb:hover {
+  background: #949a9d;
+}

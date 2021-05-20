@@ -1,0 +1,12 @@
+.layer {
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  min-height: calc(100vh - 55px);
+  z-index: 1;
+}
+
+.close-icon {
+  filter: invert(8%) sepia(10%) saturate(8%) hue-rotate(331deg) brightness(103%)
+    contrast(84%);
+}

@@ -1,0 +1,12 @@
+.periodfield {
+  display: flex;
+}
+
+.periodfield .input {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.periodfield .select-root {
+  width: 100px;
+}

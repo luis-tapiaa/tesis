@@ -1,0 +1,37 @@
+.user-dropdown-icon {
+  margin-top: 5px;
+  width: 20px;
+  filter: invert(8%) sepia(10%) saturate(8%) hue-rotate(331deg) brightness(103%) contrast(84%);
+}
+
+.user-detail {
+  display: flex;
+  flex-direction: column;
+  padding: 0 32px;
+  overflow-y: auto;
+  max-height: calc(100vh - 55px - 48px);
+}
+
+.user-detail img {
+  margin: 10px auto;
+  width: 200px;
+  min-height: 200px;
+  border-radius: 50%;
+  border: 1px solid #e5e5e5;
+}
+
+.user-detail h3 {
+  margin: 15px 0;
+}
+
+.user-detail .key {
+  margin-bottom: 10px;
+}
+
+.user-form {
+  padding: 10px 200px;
+}
+
+.scroll {
+  overflow-y: auto;
+}

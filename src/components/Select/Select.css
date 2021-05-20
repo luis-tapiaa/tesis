@@ -1,0 +1,83 @@
+.select-root {
+  position: relative;
+}
+
+.select-menu {
+  max-height: 148px;
+  overflow-y: auto;
+  position: absolute;
+  background: #fff;
+  min-width: max-content;
+  width: calc(100% - 2px);
+  z-index: 1;
+  border: 1px solid #80bdff;
+  border-radius: 0.25rem;
+  border-top: 0;
+  border-radius: 0 0 0.25rem 0.25rem;
+  display: none;
+}
+
+.select-menu-active {
+  display: block;
+}
+
+.select-menu::-webkit-scrollbar {
+  width: 8px;
+}
+
+.select-menu::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.select-menu::-webkit-scrollbar-thumb {
+  background: #a5abad;
+  border-radius: 4px;
+}
+
+.select-menu::-webkit-scrollbar-thumb:hover {
+  background: #949a9d;
+}
+
+.selected-value {
+  padding: 6px;
+  height: 22px !important;
+  display: flex;
+  align-items: center;
+  height: 21px;
+  background: #fff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+.select-icon {
+  background-size: 16px !important;
+  width: 16px !important;
+  height: 16px !important;
+  filter: invert(30%) sepia(0%) saturate(1%) hue-rotate(136deg) brightness(96%)
+    contrast(92%);
+}
+
+.selected-value div {
+  flex-grow: 1;
+}
+
+.selected-value:hover {
+  border-color: rgba(34, 36, 38, 0.35);
+}
+
+.select-active {
+  border: 1px solid #80bdff !important;
+  border-radius: 0.25rem 0.25rem 0 0;
+  border-bottom-color: transparent !important;
+}
+
+.select-option {
+  user-select: none;
+  border-top: 1px solid #f2f2f2;
+  padding: 10px 6px;
+  cursor: pointer;
+}
+
+.select-option:hover {
+  background: rgba(0, 0, 0, 0.1);
+}

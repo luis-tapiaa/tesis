@@ -1,0 +1,149 @@
+.input {
+  padding: 6px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  font-family: 'Nunito Sans';
+}
+
+.input:hover {
+  border-color: rgba(34, 36, 38, 0.35);
+}
+
+.input:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.area {
+  max-height: 100px;
+  min-height: 22px;
+  resize: vertical;
+}
+
+
+.date-container {
+  position: relative;
+}
+
+.date-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 0 8px;
+  margin-left: 10px;
+  background: transparent;
+}
+
+.date-icon:hover {
+  cursor: pointer;
+  border-color: rgba(34, 36, 38, 0.35);
+}
+
+.date-icon:focus {
+  border-color: #80bdff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.date-icon .icon {  
+  margin-top: 2px;
+  filter: invert(11%) sepia(0%) saturate(0%) hue-rotate(291deg) brightness(99%)
+    contrast(91%);
+}
+
+.calendar {
+  background: #ffffff;
+  position: absolute;
+  z-index: 2;
+  opacity: 1;
+  top: 0;
+  display: none;
+  padding: 6px;
+  border-radius: 6px;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.3);
+}
+
+.calendar-active {
+  display: block;
+}
+
+.date-table {
+  margin: 0;
+  font-size: 12px;
+}
+
+.date-table th {
+  color: #929292;
+  font-weight: 100;
+  cursor: default;
+}
+
+.date-table th:hover {
+  text-decoration: none;
+}
+
+.date-table tr:hover {
+  background-color: transparent;
+}
+
+.date-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.date-table td:hover {
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+.date-table td:active {
+  opacity: 0.5;
+}
+
+.date-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.day-out {
+  cursor: default;
+  opacity: 0.3;
+}
+
+.day-out:hover {
+  background-color: transparent !important;
+}
+
+.day-prev,
+.day-next {
+  background-size: 16px !important;
+  cursor: pointer;
+  width: 16px !important;
+  filter: invert(11%) sepia(0%) saturate(0%) hue-rotate(291deg) brightness(99%)
+    contrast(91%);
+}
+
+.day-prev:active,
+.day-next:active {
+  opacity: 0.5;
+}
+
+.day-prev {
+  transform: rotate(90deg);
+}
+
+.day-next {
+  transform: rotate(270deg);
+}
+
+.date-input {
+  display: flex;
+}
+
+.date-input .input {
+  flex-grow: 1;
+}

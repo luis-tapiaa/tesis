@@ -1,0 +1,33 @@
+.panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header {
+  background: #fff;
+  min-height: 46px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e5e5e5;
+  align-items: center;
+}
+
+.panel-item {
+  text-transform: capitalize;
+}
+
+.panel-header .panel-item {
+  flex-basis: 33.33%;
+  display: flex;
+  justify-content: center;
+}
+
+.panel-item.panel-last-menu {
+  margin-right: 10px;
+  justify-content: flex-end;
+}
+
+.panel-item.panel-first-menu {
+  margin-left: 10px;
+  justify-content: flex-start;
+}

@@ -1,0 +1,79 @@
+.actions {
+  display: flex;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+  margin: 20px 0;
+  font-size: 13px;
+  border-collapse: collapse;
+}
+
+th {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 10px;
+  text-align: left;
+}
+
+.editable tbody tr {
+  background: #fff;
+  border-top: 1px solid #d0d0d0;
+}
+
+.editable td {
+  padding: 0 10px;
+  border-right: 1px solid #d0d0d0;
+}
+
+.editable td:last-child {
+  border: none;
+}
+
+.editable thead tr th:last-child {
+  width: 80px;
+}
+
+.actions .icon-button:last-child {
+  filter: invert(39%) sepia(30%) saturate(7455%) hue-rotate(334deg)
+    brightness(106%) contrast(86%);
+}
+
+.actions .icon-button:first-child {
+  filter: invert(37%) sepia(64%) saturate(5595%) hue-rotate(199deg)
+    brightness(103%) contrast(104%);
+}
+
+.row-detail {
+  background: rgba(0, 0, 0, 0.05);
+  border-top: none !important;
+  cursor: default;
+}
+
+.row-detail td {
+  padding: 0 !important;
+}
+
+.row-active {
+  border-top: 1px solid #d0d0d0 !important;
+}
+
+.row-detail td div {
+  transition: height 0.5s ease;
+  overflow: hidden;
+}
+
+.row-content {
+  padding: 10px;
+}
+
+.collapsible tbody tr:hover {
+  background: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.collapsible .row-detail:hover {
+  background: #fff;
+  cursor: default;
+}

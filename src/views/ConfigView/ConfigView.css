@@ -1,0 +1,47 @@
+.config {
+  display: flex;
+}
+
+.config-menu {
+  display: flex;
+  flex-direction: column;
+  background: #fff;
+  min-width: 250px;
+}
+
+.config-menu a {
+  display: block;
+  padding: 16px 30px 16px 30px;
+  font-size: 16px;
+  border-right: 3px solid transparent;
+  text-decoration: none;
+  color: #000;
+}
+
+.config-menu a:hover {
+  border-color: #dbdbdb;
+  background: #fafafa;
+}
+
+.config-panels {
+  padding: 30px 60px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  overflow-y: auto;
+  border-left: 1px solid #e5e5e5;
+}
+
+.config-header {
+  display: flex;
+}
+
+.config-header h1 {
+  flex-grow: 1;
+}
+
+.option-active {
+  border-color: #007bff !important;
+  font-weight: 600 !important;
+  color: #007bff !important;
+}

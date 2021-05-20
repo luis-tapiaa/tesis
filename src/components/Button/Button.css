@@ -1,0 +1,67 @@
+.button {
+  position: relative;
+  width: 100%;
+  padding: 7px;
+  margin: 10px 0;
+  font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+  background: #007bff;
+  border: 0;
+  outline: 0;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+  transition: background 0.2s ease-in-out;
+}
+
+.button:hover {
+  cursor: pointer;
+  background: #0069d9;
+}
+
+.button:active {
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
+
+.button:disabled {
+  cursor: default;
+  opacity: 0.65;
+}
+
+.button-loading {
+  display: inline-block;
+  margin-left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 15px;
+  height: 15px;
+}
+
+.button-loading div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  margin: 0px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  animation: button-loading 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: #fff transparent transparent transparent;
+}
+.button-loading div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.button-loading div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.button-loading div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes button-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
